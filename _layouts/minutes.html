@@ -3,7 +3,13 @@ layout: default
 ---
 
 <article class="minutes">
-	<h1>{{ page.title }}</h1>
+	<h1>UKSHA Board Meeting</h1>
+	<h3>{{ page.title }}</h3>
+
+	<table>
+		<tr><th>Present</th><th>{{ page.present }}</th></tr>
+		<tr><th>Absent</th><th>{{ page.absent }}</th></tr>
+	</table>
 
 	<div class="entry">
 		{{ content }}
