@@ -28,9 +28,11 @@ table {
   width: 100%;
 }
 
-table, th, td {
-  border: 1px black;	
+table, th, td {	
   padding: 15px;
+  border: solid; 
+  border-width: 2px; 
+  border-color:black;
 }
 
 .container {
