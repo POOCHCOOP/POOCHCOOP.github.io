@@ -6,7 +6,7 @@ permalink: /meetings/
 
 <h2> Agendas & Minutes </h2>
 <ul>
-	{% for doc in site.agenda %}
+	{% for doc in site.meetings %}
 		{% if doc.category == "meetings" %}
 			<li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
 		{% endif %}
