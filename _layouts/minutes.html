@@ -11,7 +11,26 @@ layout: default
 		<tr><th>Absent</th><th>{{ page.absent }}</th></tr>
 	</table>
 
-	<div class="entry">
+	<h2>Agenda</h2>
+	<div class="agenda">
+		<table>
+			<tr>
+				<th>Agenda Review</th><th>{{ page.AgendaReview }}</th>
+			</tr>
+			<tr>
+				<th>Minutes Review</th><th>{{ page.MinutesReview }}</th>
+			</tr>
+		</table>
+
+		<h4>Reports</h4>
+		<table>
+			<tr>
+				<th>Staff Report</th><th>{{ page.StaffReport }}</th>
+			</tr>
+			<tr> House Reports </tr>
+		</table>
+
+		<h4>Discussion Items</h4>
 		{{ content }}
 	</div>
 </article>
